@@ -18,6 +18,10 @@ public class MaxEl {
         for (int i =1; i < element.length; i++) {
             if (element[i] >largest) {
                 largest = element [i];
+                
+                //a for loop structure consist of (initialize;condition;updater) in case of here
+                // we did'nt take 1 as the value as in int, because we put an array above
+                //so the code absorb this array in the for loop, i=1 now is referring to the array index location
 
             }
         }
@@ -26,3 +30,5 @@ public class MaxEl {
     }
     
 }
+//PS: elements.lenght count the total # of elements in the array it doesn't mean the index 
+//nor the index value location
