@@ -22,4 +22,4 @@ public class Even {
 
 //note: Its a good prcatice to name mthods as lowercase in start 
 // (%) gives remainder
-// (/) gives quotient
+// (/) gives quotient 

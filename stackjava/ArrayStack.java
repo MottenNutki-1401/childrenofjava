@@ -11,6 +11,7 @@ public class ArrayStack {
         //Lets create an instace where we can store the arrays
         Stack <Integer> stackArr = new Stack <> ();
         //now we will push these array elements into the stack
+        //the colon (:) means "for each loop" so for each element in numbers array we push it
         for (int stackNum: numbers) {
             stackArr.push(stackNum);
 
@@ -19,6 +20,11 @@ public class ArrayStack {
 
         //We will use pop() ,method to see lifo in action
         System.out.println("Popped element: " + stackArr.pop());
+
+        /*  Pop elements from stack (reverse order)
+        System.out.println("Elements from stack:");
+        while (!stackArr.isEmpty()) {
+            System.out.println(stackArr.pop()); */
         
    }
 }

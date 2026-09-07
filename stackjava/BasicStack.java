@@ -16,5 +16,16 @@ public class BasicStack {
         System.out.println(exampleStack); //this method only shows storage order from indec 0 to 2
         // hence we can't see lifo in action 
 
+        /*System.out.println("\nLIFO in action:");
+      System.out.println(exampleStack.pop());  // "Welcome!" (pushed last, pops first)
+      System.out.println(exampleStack.pop());  // "year"
+      System.out.println(exampleStack.pop());  // "2026" (pushed first, pops last) */
+      
+      /* 
+    System.out.println("\nPopping all elements:");
+    while (!exampleStack.isEmpty()) {
+    System.out.println(exampleStack.pop());
+}
+       */ 
     }
 }
